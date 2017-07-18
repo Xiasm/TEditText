@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TEditText</string>
+    <string name="hint">分享新鲜事</string>
+    <string name="btn_text">添加话题</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xsm.tedittext.MainActivity">
+
+    <com.xsm.library.TEditText
+        android:id="@+id/edittext"
+        android:inputType="textMultiLine"
+        android:minLines="5"
+        android:hint="@string/hint"
+        android:background="@null"
+        android:layout_margin="15dp"
+        app:object_foreground_color="@color/colorPrimary"
+        app:object_background_color="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+    <Button
+        android:id="@+id/topic_button"
+        android:text="@string/btn_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>
